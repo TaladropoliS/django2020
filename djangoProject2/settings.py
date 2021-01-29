@@ -31,7 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'nueva_app001',
+=======
+    'toro_app',
+>>>>>>> 257762343cb13630f74bd3825691968193246bab
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
