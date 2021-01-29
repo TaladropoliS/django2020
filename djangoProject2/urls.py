@@ -23,5 +23,4 @@ urlpatterns = [
     path('isra/', include('isra_app.urls')),
     path('diego_esparza', include('diego_esparza.urls')),
     path('nueva_app1', include('nueva_app001.urls')),
-
 ]
