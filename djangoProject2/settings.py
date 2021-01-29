@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'app_cata',
     'camila_riquelme',
     'carlos_app',
@@ -38,6 +39,11 @@ INSTALLED_APPS = [
     'isra_app.apps.IsraAppConfig',
     'nueva_app001',
     'pau_app',    
+=======
+    'carlos_app',
+    'nueva_app001',
+    'camila_riquelme',
+>>>>>>> daa260eb2d3df252f6c93a6417e34cae72d69a31
     'toro_app',
     'django.contrib.auth',
     'django.contrib.contenttypes',
