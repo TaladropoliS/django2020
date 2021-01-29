@@ -17,6 +17,11 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
+<<<<<<< HEAD
     #    path('admin/', admin.site.urls),
     path('blog/', include('camila_riquelme.urls'))
+=======
+    #path('admin/', admin.site.urls),
+    path('blog/', include('blog.urls'))
+>>>>>>> 257762343cb13630f74bd3825691968193246bab
 ]
