@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+    'camila_riquelme',
+    'toro_app',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
