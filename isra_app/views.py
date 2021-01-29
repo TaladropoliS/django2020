@@ -14,10 +14,13 @@ def index(request):
 
 >>>>>>> daa260eb2d3df252f6c93a6417e34cae72d69a31
 # Create your views here.
-def palma(request):
+def index(request):
+    return render(request, 'index.html')
+
+def inicio(request):
     errors = User.objects.validacion(request.POST)
     if len(errors) > 0:
         for key, msg in errors.items():
             messages.error(request, msg)
         return redirect('/')
-    return redirect('israel/')
+    return render(request, 'home.html')

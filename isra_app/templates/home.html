@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h3>Sistema Compañeros - Bienvenidos</h3>
+        </div>
+        <br>
+        <div>
+             {% if messages %}
+                    <ul>
+                        {% for message in messages %}
+                        <li>{{message}}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+        </div>
+        <div class="card-deck">
+            <div class="card border-primary mb-3" style="max-width: 180rem;">
+                <div class="card-header">Holi!!!</div>
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
