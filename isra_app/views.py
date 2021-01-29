@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from .models import User
+
 
 def index(request):
     return HttpResponse('hola')
 
-=======
-from django.shortcuts import render, redirect
-from django.contrib import messages
-from .models import User
->>>>>>> e72cdbaa4156bff28ff210185858df6f9206200c
 # Create your views here.
 def palma(request):
     errors = User.objects.validacion(request.POST)
