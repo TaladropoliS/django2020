@@ -11,4 +11,8 @@ def inicio(request):
         for key, msg in errors.items():
             messages.error(request, msg)
         return redirect('/')
-    return render(request, 'home.html')
+    request.session['usuario'] = request.POST['nombre']
+    context = {
+        "usuario":request.POST['nombre']
+    }
+    return render(request, 'home.html',context)
