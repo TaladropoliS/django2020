@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .idea/
 app_cata/
 camila_riquelme/
@@ -6,4 +7,11 @@ diego_esparza/
 isra_app/
 nueva_app001/
 pau_app/
+=======
+camila_riquelme/
+diego_esparza/
+djangoProject2/
+isra_app/
+nueva_app001/
+>>>>>>> 9402046294ac8b974e1f923458afb21a3ce924f2
 toro_app/
