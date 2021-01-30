@@ -4,4 +4,4 @@ from random import randrange
 # Create your views here.
 
 def tala(request):
-    return render(request, 'index.html')
+    return render(request, 'index1.html')
