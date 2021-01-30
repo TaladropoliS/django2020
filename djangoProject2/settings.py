@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'cristian_app',
+    'isra_app',
+    'carlos_app',
     'nueva_app001',
     'camila_riquelme',
     'toro_app',
@@ -40,8 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'isra_app.apps.IsraAppConfig',
-    'diego_esparza',
 ]
 
 MIDDLEWARE = [
