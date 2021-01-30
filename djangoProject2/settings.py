@@ -40,8 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'isra_app.apps.IsraAppConfig',
-    'diego_esparza',
+    'isra_app',
+    
+    
 ]
 
 MIDDLEWARE = [
