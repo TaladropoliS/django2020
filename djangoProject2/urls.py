@@ -21,6 +21,8 @@ urlpatterns = [
 
     path('', include('isra_app.urls')),
     path('camila/', include('camila_riquelme.urls')),
+    path('tala', include('taladropolis.urls')),
+    path('blog/', include('camila_riquelme.urls')),
     path('carlos/', include('carlos_app.urls')),
     path('nueva_app1', include('nueva_app001.urls')),
     path('diego_esparza', include('diego_esparza.urls')),
@@ -40,5 +42,5 @@ urlpatterns = [
 #     path('blog/', include('camila_riquelme.urls')),
 #     path('blog/', include('blog.urls'))
 # >>>>>>> c9a283ea276a7556ad37dbe89a610a271e632e8c
-#>>>>>>> 70b7d9f9293a95903886ef47553c767565982362
+
 ]
