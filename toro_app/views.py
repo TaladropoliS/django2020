@@ -46,7 +46,7 @@ def author_to_book(request, book_op):
 def author_add(request):
     Author.objects.create(first_name=request.POST['autorname'],
                           last_name=request.POST['apellido'], note=request.POST['author_note'])
-    return redirect('/author')
+    return redirect('/andres/author')
 
 
 def author_home(request):
