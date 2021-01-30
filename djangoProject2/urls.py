@@ -18,7 +18,10 @@ from django import urls
 from django.urls import path, include
 
 urlpatterns = [
+<<<<<<< HEAD
 
+=======
+>>>>>>> c81ed23489ac4f0a374ee9386d765bcf4281844a
     path('', include('isra_app.urls')),
     path('camila/', include('camila_riquelme.urls')),
     path('tala', include('taladropolis.urls')),
@@ -26,6 +29,7 @@ urlpatterns = [
     path('carlos/', include('carlos_app.urls')),
     path('nueva_app1', include('nueva_app001.urls')),
     path('diego_esparza', include('diego_esparza.urls')),
+<<<<<<< HEAD
     path('jalvarez/', include('jalvarez.urls')),
     path('', include('cristian_app.urls')),
 
@@ -43,4 +47,8 @@ urlpatterns = [
 #     path('blog/', include('blog.urls'))
 # >>>>>>> c9a283ea276a7556ad37dbe89a610a271e632e8c
 
+=======
+    path('diego_labrin/', include('diego_labrin.urls')),
+    path('', include('cristian_app.urls')),
+>>>>>>> c81ed23489ac4f0a374ee9386d765bcf4281844a
 ]
