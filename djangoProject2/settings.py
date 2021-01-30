@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'nueva_app001',
     'camila_riquelme',
     'toro_app',
+    'diego_labrin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',

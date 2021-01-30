@@ -22,5 +22,7 @@ urlpatterns = [
     path('camila/', include('camila_riquelme.urls')),
     path('carlos/', include('carlos_app.urls')),
     path('nueva_app1', include('nueva_app001.urls')),
-    path('diego_esparza', include('diego_esparza.urls'))
+    path('diego_esparza', include('diego_esparza.urls')),
+    path('diego_labrin/', include('diego_labrin.urls')),
+
 ]
