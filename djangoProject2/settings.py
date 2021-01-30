@@ -31,7 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'isra_app.apps.IsraAppConfig',
+=======
+    'cristian_app',
+    'nueva_app001',
+>>>>>>> 70b7d9f9293a95903886ef47553c767565982362
     'camila_riquelme',
     'isra_app',
     'carlos_app',

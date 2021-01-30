@@ -18,12 +18,11 @@ from django import urls
 from django.urls import path, include
 
 urlpatterns = [
-
+    path('', include('cristian_app.urls')),
     path("andres/", include('toro_app.urls')),
     path('', include('isra_app.urls')),
     path('camila/', include('camila_riquelme.urls')),
     path('carlos/', include('carlos_app.urls')),
     path('nueva_app1', include('nueva_app001.urls')),
     path('diego_esparza', include('diego_esparza.urls'))
-
 ]
