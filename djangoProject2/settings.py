@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'carlos_app',
+    'jalvarez'
+    'cristian_app',
     'nueva_app001',
     'camila_riquelme',
     'toro_app',
