@@ -18,27 +18,13 @@ from django import urls
 from django.urls import path, include
 
 urlpatterns = [
-    #    path('admin/', admin.site.urls),
-    path('blog/', include('camila_riquelme.urls')),
-    path('carlos/', include('carlos_app.urls')),
-    path('isra/', include('isra_app.urls')),
-    #    path('admin/', admin.site.urls),
-    path('blog/', include('camila_riquelme.urls')),
-    #path('admin/', admin.site.urls),
-    path('blog/', include('isra_app.urls')),
-    path('gtoro/', include('toro_app.urls')),
-    path('blog/', include('blog.urls')),
-    path('nueva_app1', include('nueva_app001.urls')),
-    path('diego_esparza', include('diego_esparza.urls')),
-    path('blog/', include('camila_riquelme.urls')),
-    path('blog/', include('blog.urls'))
-    path('blog/', include('camila_riquelme.urls')),
-    path('nueva_app1', include('nueva_app001.urls')),
-    path('diego_esparza', include('diego_esparza.urls'))
-    path('blog/', include('camila_riquelme.urls')),
-    path('carlos/', include('carlos_app.urls')),
-    path('isra/', include('isra_app.urls')),
-    path('diego_esparza', include('diego_esparza.urls')),
-    path('nueva_app1', include('nueva_app001.urls')),
+    path("", include('app_cata.urls')),
+    path("", include('camila_riquelme.urls')),
+    path("", include('carlos_app.urls')),
+    path("", include('diego_esparza.urls')),
+    path("", include('isra_app.urls')),
+    path("", include('nueva_app001.urls')),
+    path("", include('pau_app.urls')),
+    path("", include('toro_app.urls'))
 
 ]
