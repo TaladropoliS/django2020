@@ -18,21 +18,13 @@ from django import urls
 from django.urls import path, include
 
 urlpatterns = [
-<<<<<<< HEAD
-    path('', include('cristian_app.urls')),
-=======
->>>>>>> c81ed23489ac4f0a374ee9386d765bcf4281844a
     path('', include('isra_app.urls')),
+    path('cristian/', include('cristian_app.urls')),
     path('camila/', include('camila_riquelme.urls')),
     path('tala', include('taladropolis.urls')),
     path('blog/', include('camila_riquelme.urls')),
     path('carlos/', include('carlos_app.urls')),
     path('nueva_app1', include('nueva_app001.urls')),
-<<<<<<< HEAD
-    path('diego_esparza', include('diego_esparza.urls'))
-=======
     path('diego_esparza', include('diego_esparza.urls')),
     path('diego_labrin/', include('diego_labrin.urls')),
-    path('', include('cristian_app.urls')),
->>>>>>> c81ed23489ac4f0a374ee9386d765bcf4281844a
 ]

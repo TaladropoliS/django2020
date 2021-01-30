@@ -28,21 +28,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-<<<<<<< HEAD
-    'cristian_app',
-=======
->>>>>>> c81ed23489ac4f0a374ee9386d765bcf4281844a
     'isra_app',
-    'taladropolis',
-    'carlos_app',
-<<<<<<< HEAD
-=======
-    'cristian_app',
->>>>>>> c81ed23489ac4f0a374ee9386d765bcf4281844a
-    'nueva_app001',
+    'app_cata',
     'camila_riquelme',
-    'toro_app',
+    'carlos_app',
+    'cristian_app',
+    'diego_esparza',
     'diego_labrin',
+    'nueva_app001',
+    'pau_app',
+    'taladropolis',
+    'toro_app',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
