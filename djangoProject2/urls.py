@@ -18,13 +18,13 @@ from django import urls
 from django.urls import path, include
 
 urlpatterns = [
-    path("", include('app_cata.urls')),
-    path("", include('camila_riquelme.urls')),
-    path("", include('carlos_app.urls')),
-    path("", include('diego_esparza.urls')),
-    path("", include('isra_app.urls')),
-    path("", include('nueva_app001.urls')),
-    path("", include('pau_app.urls')),
-    path("", include('toro_app.urls'))
+    path("cata/", include('app_cata.urls')),
+    path("camila/", include('camila_riquelme.urls')),
+    path("carlos/", include('carlos_app.urls')),
+    path("diego/", include('diego_esparza.urls')),
+    path("isra/", include('isra_app.urls')),
+    path("nueva/", include('nueva_app001.urls')),
+    path("pau/", include('pau_app.urls')),
+    path("andres/", include('toro_app.urls'))
 
 ]
