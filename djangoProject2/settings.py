@@ -28,8 +28,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'taladropolis',
     'carlos_app',
+=======
+    'cristian_app',
+>>>>>>> 70b7d9f9293a95903886ef47553c767565982362
     'nueva_app001',
     'camila_riquelme',
     'toro_app',
