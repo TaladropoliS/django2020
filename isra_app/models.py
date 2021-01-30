@@ -10,7 +10,7 @@ class UserManager(models.Manager):
         EMAIL = re.compile(
             r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
         if not EMAIL.match(postData['email']):
-            errores['email'] = "email invalido"
+            errores['email'] = "email invalido ."
         return errores
 
 class User(models.Model):

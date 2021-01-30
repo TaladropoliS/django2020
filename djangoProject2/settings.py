@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'isra_app.apps.IsraAppConfig',
     'camila_riquelme',
+    'isra_app',
     'carlos_app',
     'diego_esparza',
     'nueva_app001',
