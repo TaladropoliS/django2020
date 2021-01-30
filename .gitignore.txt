@@ -1,8 +1,0 @@
-app_cata/
-carlos_app/
-diego_esparza/
-djangoProject2/
-isra_app/
-nueva_app001/
-pau_app/
-toro_app/
