@@ -24,14 +24,8 @@ urlpatterns = [
     path('camila/', include('camila_riquelme.urls')),
     path('carlos/', include('carlos_app.urls')),
     path('nueva_app1', include('nueva_app001.urls')),
-<<<<<<< HEAD
-    path('diego_esparza', include('diego_esparza.urls'))
-=======
     path('diego_esparza', include('diego_esparza.urls')),
     path('jalvarez/', include('jalvarez.urls')),
-    path('', include('cristian_app.urls')),
     path('diego_labrin/', include('diego_labrin.urls')),
-    path('', include('cristian_app.urls')),
-
->>>>>>> 2b372617713adcdc424c603883db5b4a1317328e
+    path('paula/', include('pau_app.urls')),
 ]
