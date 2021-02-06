@@ -18,7 +18,7 @@ from django import urls
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('cristian_app.urls')),
+    path('cristian/', include('cristian_app.urls')),
     path("andres/", include('toro_app.urls')),
     path('', include('isra_app.urls')),
     path('camila/', include('camila_riquelme.urls')),
@@ -28,4 +28,5 @@ urlpatterns = [
     path('jalvarez/', include('jalvarez.urls')),
     path('diego_labrin/', include('diego_labrin.urls')),
     path('paula/', include('pau_app.urls')),
+    path('fernando/', include('taladropolis.urls')),
 ]

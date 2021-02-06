@@ -13,6 +13,7 @@ def inicio(request):
         return redirect('/')
     request.session['usuario'] = request.POST['nombre']
     context = {
-        "usuario":request.POST['nombre']
+        "usuario":request.POST['nombre'],
+        "diccionario" : {"nombre": request.POST['nombre'], "Email": request.POST['email']}
     }
     return render(request, 'home.html',context)
